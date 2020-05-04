@@ -11,10 +11,14 @@
     <section class="containerSec">
       <section class="userBox">
         <section>
-          <img src="<%= user.local.avatar %>" alt="">
+          <img src="/<%= user.local.avatar %>" alt="">
         </section>
         <section>
           <p id="searchedUser"><%= user.local.username %></p>
+          <strong class="labelFont">ABOUT:</strong>
+          <p class="searchedUser"><%= user.local.about %></p>
+          <strong class="labelFont">LOCATION:</strong>
+          <p class="searchedUser"><%= user.local.location %></p>
         </section>
         <section>
           <button class="makePurple" id="add" type="submit" name="button">ADD COMRADE</button>

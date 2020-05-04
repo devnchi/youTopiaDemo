@@ -60,7 +60,7 @@ module.exports = function(passport) {
                 // set the user's local credentials
                 newUser.local.email    = email;
                 newUser.local.username = req.body.username;
-                newUser.local.avatar = "/images/avatars/etIcon.png";
+                newUser.local.avatar = "images/avatars/etIcon.png";
                 newUser.local.about = "";
                 newUser.local.location = "";
                 newUser.local.myComrades = [];

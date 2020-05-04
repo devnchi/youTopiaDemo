@@ -69,7 +69,7 @@ table {
 }
 #searchedUser {
 	color: rgb(155, 0, 139);
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 	margin: 50px auto;
 	font-family: 'Audiowide', cursive;
@@ -80,3 +80,16 @@ table {
 	color: white;
 	font-family: 'Do Hyeon', sans-serif;
 	font-size: 25px;
+}
+.labelFont {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 25px;
+	color: rgb(155, 0, 139);
+}
+.searchedUser {
+	color: rgb(155, 0, 139);
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto;
+	font-family: 'Audiowide', cursive;
+}
